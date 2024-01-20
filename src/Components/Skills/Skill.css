@@ -1,0 +1,30 @@
+.skill-main {
+  border-collapse: collapse;
+
+  width: 100%;
+}
+
+.skill-main td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.skill-main td ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.skill-main .heading {
+  color: #ff004f;
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  padding: 10px; /* Add padding to the headings */
+  border-radius: 10px;
+}
+
+.skill-main td ul li {
+  font-size: 16px;
+  margin-top: 10px;
+}

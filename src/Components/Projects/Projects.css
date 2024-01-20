@@ -1,0 +1,50 @@
+.main-cont {
+  background-color: black;
+}
+.centered-button {
+  height: 300px;
+  width: 200px;
+}
+.cont-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+.photo-cont-1 {
+  padding: 30px;
+}
+
+.project-container {
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-container-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  height: 18.5rem;
+  width: 15.5rem;
+}
+.img-proj {
+  height: 350px;
+  width: 300px;
+  margin: 30px;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .cont-2 {
+    justify-content: center; /* Center the divs on small screens */
+  }
+}

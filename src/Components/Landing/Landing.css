@@ -1,0 +1,110 @@
+/* .back-img {
+  width: 100%;
+  height: 500px;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.back-img {
+  width: 100%;
+  height: 700px;
+  filter: blur(2px);
+}
+.div-2 {
+  position: absolute;
+}
+
+.landing-container {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profession {
+  font-size: 30px;
+  color: #ffffff;
+}
+.logo-img {
+  position: absolute;
+  top: 12%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.logo-img-1 {
+  border-radius: 20px;
+  height: 120px;
+  width: auto;
+}
+.list-cont {
+  position: absolute;
+  top: 5%;
+  left: 55%;
+}
+.horizontal-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal-list li {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px;
+}
+.horizontal-list a {
+  text-decoration: none;
+  color: #e3e0e0;
+}
+
+.underline-animation {
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.underline-animation::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff004f;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.underline-animation:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.footer-css {
+  text-align: center;
+  font-size: 20px;
+
+  margin: 10px;
+}
