@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "../Header/Header";
 import "./Contact.css";
+import Footer from "../Footer/Footer";
 
 function Contact() {
   const [successMsg, setSuccessMsg] = useState("");
@@ -78,9 +79,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <footer>
-        <p className="footer-css">© ch srinivas.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

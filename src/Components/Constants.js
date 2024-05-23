@@ -1,10 +1,17 @@
 export const projects = [
   {
+    name: "Naukri Clone",
+    skills: ["React.JS", "JavaScript"],
+    description:
+      "Developed a fully functional web application inspired by Naukri, a popular Job searching platoform . The project aimed to replicate core features and provide users with a similar experience, including searching for jobs, viewing openings, applying for jobs .",
+    gitLink: "https://n-clone-sigma.vercel.app/",
+  },
+  {
     name: "Zomato Clone",
     skills: ["React.JS", "JavaScript"],
     description:
       "Developed a fully functional web application inspired by Zomato, a popular food delivery and restaurant discovery platform. The project aimed to replicate core features and provide users with a similar experience, including searching for restaurants, viewing menus, placing orders, and tracking deliveries.",
-    gitLink: "https://github.com/srini154/Assignment-4.git",
+    gitLink: "https://srini154.github.io/Assignment-4/",
   },
   {
     name: "Login-Form",
@@ -18,14 +25,7 @@ export const projects = [
     skills: ["React.JS", "JavaScript"],
     description:
       "Developed a fully functional web-based calculator application using React, which allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Implemented a user-friendly interface with clickable buttons and a dynamic display for input and output.",
-    gitLink: "",
-  },
-  {
-    name: "To-do List",
-    skills: ["React.JS", "JavaScript"],
-    description:
-      "I designed and developed a web-based To-Do List application utilizing modern web technologies, enabling efficient task organization. Users can seamlessly add, edit, delete, and mark tasks as complete, enhancing productivity and task management.",
-    gitLink: "",
+    gitLink: "https://srini154.github.io/Calculator-Project/",
   },
 
   {
