@@ -7,13 +7,13 @@ function Header() {
   return (
     <>
       <div className="logo-img">
-        <Link to="/">
+        {/* <Link to="/">
           <img
             src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQexRwHMG5LytyzRAXMFYQHQ_pcNu6JvLM58oMaAjJV6J_uDy4F"
             alt=""
             className="logo-img-1"
           />
-        </Link>
+        </Link> */}
         <ul className="horizontal-list">
           <li>
             <Link className="underline-animation" to="/">

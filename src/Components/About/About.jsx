@@ -5,6 +5,8 @@ import Header from "../Header/Header";
 import Skills from "../Skills/Skills";
 import Education from "../Education/Education";
 import Footer from "../Footer/Footer";
+import WorkExperience from "../WorkExperience/WorkExperience";
+
 function About() {
   const [currentPage, setCurrentPage] = useState("Skills");
   return (
@@ -15,13 +17,22 @@ function About() {
         <div className="cont-about-para">
           <h1>About Me</h1>
           <p style={{ textAlign: "justify" }}>
-            I'm a dedicated BTech Mechanical Engineering graduate with a strong
-            passion for software. Actively acquiring software skills, I'm
-            committed to personal and professional growth. I strive for
-            excellence through hard work, aiming to advance my knowledge and
-            provide innovative software solutions for career advancement.
+            I’m a highly driven full-stack developer specializing in the MERN
+            stack, passionate about building scalable, user-centric
+            applications. With expertise in frontend and backend technologies, I
+            create innovative solutions that enhance efficiency and user
+            experience. Seeking a challenging frontend role to apply my
+            creativity and technical expertise to impactful projects.
           </p>
           <div>
+            {/* <button
+              className={`btn-about-1 ${
+                currentPage === "WorkExperiences" ? "active" : ""
+              }`}
+              onClick={() => setCurrentPage("WorkExperiences")}
+            >
+              Work Experience
+            </button> */}
             <button
               className={`btn-about ${
                 currentPage === "Skills" ? "active" : ""
@@ -42,6 +53,7 @@ function About() {
           <div>
             {currentPage == "Skills" && <Skills />}
             {currentPage == "Education" && <Education />}
+            {/* {currentPage == "WorkExperiences" && <WorkExperience />} */}
           </div>
         </div>
       </div>

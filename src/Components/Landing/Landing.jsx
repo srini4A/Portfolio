@@ -15,7 +15,9 @@ function Landing() {
           <p className="name">
             Hi, I'm <span className="name-span">Srinivas Ch</span>
           </p>
-          <p className="profession">Software Developer | Mechanical Engineer</p>
+          <p className="profession">
+            Full Stack Developer | Software Developer
+          </p>
         </div>
       </div>
       <div style={{ backgroundColor: "grey" }}>

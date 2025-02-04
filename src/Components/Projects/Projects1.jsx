@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Projects.css";
-
+import background from "../../Img/background.png";
 function Projects1(props) {
   const [isHovered, setIsHovered] = useState(false);
   const onCliicked = () => {
@@ -17,11 +17,7 @@ function Projects1(props) {
       style={{ cursor: "pointer" }}
     >
       <div className="image-container-1">
-        <img
-          src="https://poojaminna.s3.us-east-2.amazonaws.com/images/forport-2.png"
-          alt=""
-          className="img-proj"
-        />
+        <img src={background} alt="" className="img-proj" />
         <div className="image-text">
           {isHovered ? (
             <div>

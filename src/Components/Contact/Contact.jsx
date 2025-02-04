@@ -59,16 +59,16 @@ function Contact() {
             <ul className="social-links">
               <li>
                 <a
-                  href="https://www.instagram.com/chsrinivas_8C"
+                  href="https://github.com/srini154"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="fa fa-instagram"></i> Instagram
+                  <i className="fa fa-instagram"></i> Github
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/your_linkedin"
+                  href="www.linkedin.com/in/srinivasch8529"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

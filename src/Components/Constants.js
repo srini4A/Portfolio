@@ -33,13 +33,13 @@ export const projects = [
     skills: ["HTML", "CSS", "JavaScript"],
     description:
       "Developed a frontend webpage for a hospital, including a home page, appointment form, loginpage, create user page, and contact us form. ",
-    gitLink: "",
+    gitLink: "https://github.com/srini154/Hospital",
   },
   {
     name: "Portfolio",
     skills: ["React.JS", "JavaScript"],
     description:
       "I created a personalized portfolio showcasing comprehensive information about me, including my skills, experiences, and projects. This portfolio serves as an online representation, offering a concise yet detailed overview of my professional background and achievements.",
-    gitLink: "",
+    gitLink: "https://github.com/srini154/Portfolio",
   },
 ];
